@@ -21,7 +21,7 @@ gallery_dict = {image_path.split("/")[-1].split(".")[-2].replace("-", " "): imag
     for image_path in gallery_files}
 
 st.image("logo.jpg")
-st.sidebar.title("Sophisticated Palette 🎨")
+st.sidebar.title("Sophisticated Palettee 🎨")
 st.sidebar.caption("Tell your data story with style.")
 st.sidebar.markdown("Made by [Siavash Yasini](https://www.linkedin.com/in/siavash-yasini/)")
 st.sidebar.caption("Look behind the scenes of Sophisticated Palette [here](https://blog.streamlit.io/create-a-color-palette-from-any-image/).")
